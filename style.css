@@ -1,0 +1,167 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif; 
+
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #999;
+    background:url(images/FsY6H\ \(1\).jpg) no-repeat;
+    background-position:bottom
+    
+
+}
+
+.formbox{
+position: relative;
+width: 400px;
+height: 450px;
+background-color: red;
+background: transparent;
+border-radius: 20px;
+border: 2px solid white;
+backdrop-filter:blur;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+h2{
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+
+
+}
+
+.inputbox{
+position: relative;
+margin: 30px 0;
+width: 310px;
+border-bottom: 2px solid #fff;
+
+
+}
+
+
+.inputbox label{
+position: absolute;
+align-items: cente;
+top: 50%;
+left: 5%;
+transform: translateY(-110%);
+color: #fff;
+font-size: 1em;
+pointer-events:none;
+transition: .5s;
+top: 5px;
+
+}
+
+
+input:focus ~label,
+input:valid ~label{
+    top: -5px;
+
+
+}
+
+
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff ;
+
+
+
+}
+
+
+
+
+
+.inputbox ion-icon{
+
+    position: absolute;
+    right: 8px;
+    color: #520101;
+    font-size: 1.2em;
+    top:20%
+}
+
+
+
+.forget{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+
+.forget label input{
+
+    margin-right: 3px;
+
+}
+
+a{
+    margin-left: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+
+button{
+
+    width: 100%;
+    height:40px;
+    border-radius: 40px ;
+    border: none;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+
+.registers{
+
+    color: #fff;
+    text-align: center;
+    font-size: .9em;
+    margin: 25px 0 18px;
+    
+}
+
+p a{
+
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+p a:hover{
+
+    text-decoration: underline;
+
+}
